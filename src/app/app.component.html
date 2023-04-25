@@ -1,0 +1,16 @@
+<body>
+<div>
+  <form>
+    <h1>IMC</h1>
+    <h3>Peso:</h3>
+    <input [(ngModel)]="num1" name="num1" type="number" />
+    <h3>altura:</h3>
+    <input [(ngModel)]="num2" name="num2" type="number" /><br><br>
+    <button (click)="imc()">Calcular</button>
+    <h3>Resultado:</h3>
+    <div>
+      <span>{{ resp }}</span>
+    </div>
+  </form>
+</div>
+</body>
